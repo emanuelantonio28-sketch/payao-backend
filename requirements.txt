@@ -1,7 +1,0 @@
-fastapi
-uvicorn[standard]
-pydantic
-sqlmodel
-pandas
-psycopg[binary]
-python-multipart
