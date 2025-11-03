@@ -39,3 +39,4 @@ def delete_employee(emp_id: int, db: Session = Depends(get_db), user=Depends(req
     if not emp: raise HTTPException(status_code=404, detail="Não encontrado")
     db.delete(emp); db.commit()
     return {"ok": True}
+
